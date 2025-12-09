@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth" style="scroll-padding-top: 100px">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV. INSANI TRANSPORTATION</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet" />
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: { sans: ["Inter", "sans-serif"] },
+            colors: {
+              insani: { blue: "#1e3a8a", light: "#3b82f6", accent: "#f59e0b" },
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body class="font-sans text-gray-700 bg-gray-50 flex flex-col min-h-screen">
+    <div id="header-placeholder"></div>
+
+    <section
+      id="home"
+      class="section relative pt-20 pb-12 md:pt-32 md:pb-24 flex items-center min-h-screen bg-cover bg-center"
+      style="background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80')"
+    >
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center md:text-left relative z-10">
+        <span class="text-insani-accent font-bold tracking-wider uppercase text-sm md:text-base mb-2 block animate-pulse">Sejak 2002</span>
+        <h1 class="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight">
+          Mitra Terpercaya Pengiriman <br />
+          <span class="text-insani-light">Alat Berat & Kargo Proyek</span>
+        </h1>
+        <p class="text-gray-300 text-lg md:text-xl mb-8 max-w-2xl">Melayani pengiriman via Darat, Laut, dan Udara ke seluruh wilayah Indonesia dengan solusi logistik yang efektif dan efisien.</p>
+        <div class="flex flex-col md:flex-row gap-4 justify-center md:justify-start">
+          <a href="#contact" class="bg-insani-accent text-gray-900 px-8 py-4 rounded font-bold hover:bg-yellow-400 transition shadow-lg hover:shadow-yellow-500/50"> Dapatkan Penawaran </a>
+          <a href="#projects" class="border-2 border-white text-white px-8 py-4 rounded font-bold hover:bg-white hover:text-insani-blue transition"> Lihat Portofolio </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+          <div class="relative group">
+            <img
+              src="https://images.unsplash.com/photo-1519003722824-194d4455a60c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+              alt="Tentang CV Insani"
+              class="rounded-lg shadow-xl w-full object-cover h-[400px] group-hover:scale-[1.02] transition duration-500"
+            />
+            <div class="absolute -bottom-6 -right-6 bg-insani-blue text-white p-6 rounded-lg shadow-lg hidden md:block border-4 border-white">
+              <p class="text-3xl font-bold">20+</p>
+              <p class="text-sm">Tahun Pengalaman</p>
+            </div>
+          </div>
+          <div>
+            <h2 class="text-insani-blue font-bold text-xl mb-2 uppercase border-b-2 border-insani-accent inline-block pb-1">Tentang Kami</h2>
+            <h3 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6 mt-4">Maju Bersama Pelanggan</h3>
+            <p class="text-gray-600 mb-4 leading-relaxed text-justify">Didirikan pada 9 September 2002 di Semarang, CV. INSANI merupakan perusahaan swasta yang bergerak dalam bidang pengiriman barang (ekspedisi).</p>
+            <p class="text-gray-600 mb-6 leading-relaxed text-justify">Kami bekerja sama dengan berbagai perusahaan swasta maupun milik negara dalam berbagai bidang usaha, mampu mengatasi kendala di lapangan dengan solusi bijaksana.</p>
+
+            <div class="space-y-4">
+              <div class="flex items-start p-4 bg-blue-50 rounded-lg">
+                <i class="fa-solid fa-eye text-insani-blue mt-1 mr-3 text-xl"></i>
+                <div>
+                  <h4 class="font-bold text-gray-800">Visi</h4>
+
+                  <p class="text-sm text-gray-600">Menjadi perusahaan ekspedisi yang mampu bersaing dan tumbuh di tingkat nasional.</p>
+                </div>
+              </div>
+              <div class="flex items-start p-4 bg-yellow-50 rounded-lg">
+                <i class="fa-solid fa-rocket text-insani-accent mt-1 mr-3 text-xl"></i>
+                <div>
+                  <h4 class="font-bold text-gray-800">Misi</h4>
+
+                  <p class="text-sm text-gray-600">Memberikan kinerja terbaik dengan inovasi dan teknologi untuk efektivitas dan efisiensi.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section py-20 bg-gray-100">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-insani-blue font-bold text-xl mb-2 uppercase border-b-2 border-insani-accent inline-block pb-1">Layanan Kami</h2>
+          <h3 class="text-3xl md:text-4xl font-bold text-gray-900 mt-4">Solusi Logistik Terintegrasi</h3>
+          <p class="mt-4 text-gray-600 max-w-2xl mx-auto">Kami mengurus seluruh proses pengiriman dari pengirim ke penerima (Freight Forwarding) dengan berbagai moda transportasi.</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-2xl transition duration-300 border-b-4 border-insani-blue group transform hover:-translate-y-2">
+            <div class="w-16 h-16 bg-blue-50 rounded-full flex items-center justify-center mb-6 group-hover:bg-insani-blue transition duration-300">
+              <i class="fa-solid fa-truck-moving text-2xl text-insani-blue group-hover:text-white transition"></i>
+            </div>
+            <h4 class="text-xl font-bold mb-3 text-gray-800">Project Cargo (Alat Berat)</h4>
+            <p class="text-gray-600 text-sm leading-relaxed">Spesialis pengiriman alat berat seperti Excavator, Dump Truck (HD), Crane, hingga Traktor ke lokasi proyek terpencil menggunakan Lowbed atau Trailer.</p>
+          </div>
+
+          <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-2xl transition duration-300 border-b-4 border-insani-accent group transform hover:-translate-y-2">
+            <div class="w-16 h-16 bg-yellow-50 rounded-full flex items-center justify-center mb-6 group-hover:bg-insani-accent transition duration-300">
+              <i class="fa-solid fa-ship text-2xl text-insani-accent group-hover:text-white transition"></i>
+            </div>
+            <h4 class="text-xl font-bold mb-3 text-gray-800">Freight Forwarding (Laut/LCT)</h4>
+            <p class="text-gray-600 text-sm leading-relaxed">Pengiriman antar pulau menggunakan Kapal Kargo atau LCT (Landing Craft Tank) untuk muatan curah, material konstruksi (Tiang Pancang, Besi), dan Tangki.</p>
+          </div>
+
+          <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-2xl transition duration-300 border-b-4 border-insani-blue group transform hover:-translate-y-2">
+            <div class="w-16 h-16 bg-blue-50 rounded-full flex items-center justify-center mb-6 group-hover:bg-insani-blue transition duration-300">
+              <i class="fa-solid fa-warehouse text-2xl text-insani-blue group-hover:text-white transition"></i>
+            </div>
+            <h4 class="text-xl font-bold mb-3 text-gray-800">Material Proyek & Umum</h4>
+            <p class="text-gray-600 text-sm leading-relaxed">Distribusi material proyek seperti Besi Beton, Semen, Pipa, hingga Sparepart Mesin dan Genset dengan penanganan dokumen yang lengkap.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex flex-col md:flex-row justify-between items-end mb-12">
+          <div>
+            <h2 class="text-insani-blue font-bold text-xl mb-2 uppercase border-b-2 border-insani-accent inline-block pb-1">Galeri Aktivitas</h2>
+            <h3 class="text-3xl md:text-4xl font-bold text-gray-900 mt-4">Pengalaman Lapangan Kami</h3>
+          </div>
+          <div class="mt-4 md:mt-0">
+            <a href="gallery.html" class="text-insani-blue font-semibold hover:text-insani-accent transition"> Lihat Selengkapnya <i class="fa-solid fa-arrow-right ml-2"></i> </a>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div class="group relative overflow-hidden rounded-lg shadow-lg cursor-pointer h-72">
+            <img src="assets/galeri-proyek/kapal_tcl.jpg" alt="Pengiriman via Kapal LCT" class="w-full h-full object-cover transform group-hover:scale-110 transition duration-700" />
+
+            <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-90"></div>
+            <div class="absolute bottom-0 left-0 p-6 text-white translate-y-2 group-hover:translate-y-0 transition duration-300">
+              <p class="text-xs font-bold text-insani-accent uppercase mb-1">Jambi - Kalimantan</p>
+              <h4 class="font-bold text-lg mb-2">Pengiriman Alat Berat via LCT</h4>
+              <p class="text-xs text-gray-300 opacity-0 group-hover:opacity-100 transition duration-300">PT. Sinar Sejati Luhur</p>
+            </div>
+          </div>
+
+          <div class="group relative overflow-hidden rounded-lg shadow-lg cursor-pointer h-72">
+            <img src="assets/galeri-proyek/truck.jpg" alt="Unit HD Truck" class="w-full h-full object-cover transform group-hover:scale-110 transition duration-700" />
+
+            <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-90"></div>
+            <div class="absolute bottom-0 left-0 p-6 text-white translate-y-2 group-hover:translate-y-0 transition duration-300">
+              <p class="text-xs font-bold text-insani-accent uppercase mb-1">Pamapersada</p>
+              <h4 class="font-bold text-lg mb-2">Mobilisasi Unit HD 465 & Komatsu 1500</h4>
+              <p class="text-xs text-gray-300 opacity-0 group-hover:opacity-100 transition duration-300">Pengiriman Truk Tambang Besar</p>
+            </div>
+          </div>
+
+          <div class="group relative overflow-hidden rounded-lg shadow-lg cursor-pointer h-72">
+            <img src="assets/galeri-proyek/tiang-pancang.jpg" alt="Tiang Pancang Beton" class="w-full h-full object-cover transform group-hover:scale-110 transition duration-700" />
+
+            <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-90"></div>
+            <div class="absolute bottom-0 left-0 p-6 text-white translate-y-2 group-hover:translate-y-0 transition duration-300">
+              <p class="text-xs font-bold text-insani-accent uppercase mb-1">Kumai, Kalimantan Tengah</p>
+              <h4 class="font-bold text-lg mb-2">Pengiriman Tiang Pancang</h4>
+              <p class="text-xs text-gray-300 opacity-0 group-hover:opacity-100 transition duration-300">PT. Nipindo Primatama</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-8 text-center">
+          <p class="text-gray-500 text-sm">Dan masih banyak lagi proyek pengiriman Tangki, Trafo, dan Genset ke berbagai wilayah Indonesia.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-16 bg-insani-blue text-white overflow-hidden relative">
+      <div class="absolute top-0 left-0 w-full h-full bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-10"></div>
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
+        <h3 class="text-2xl font-bold mb-8">Dipercaya Oleh Perusahaan Terkemuka</h3>
+        <div class="flex flex-wrap justify-center items-center gap-8 md:gap-16 opacity-80">
+          <div class="bg-white p-4 rounded-lg shadow-md h-24 w-48 flex items-center justify-center hover:scale-105 transition duration-300">
+            <img src="logo-perusahaan/kaltimex.png" alt="PT. Kaltimex Energy" class="max-h-full max-w-full object-contain" />
+          </div>
+          <div class="bg-white p-4 rounded-lg shadow-md h-24 w-48 flex items-center justify-center hover:scale-105 transition duration-300">
+            <img src="logo-perusahaan/pamapersada.png" alt="Pamapersada" class="max-h-full max-w-full object-contain" />
+          </div>
+          <div class="bg-white p-4 rounded-lg shadow-md h-24 w-48 flex items-center justify-center hover:scale-105 transition duration-300">
+            <img src="logo-perusahaan/pos_indonesia.png" alt="PT. Pos Indonesia" class="max-h-full max-w-full object-contain" />
+          </div>
+          <div class="bg-white p-4 rounded-lg shadow-md h-24 w-48 flex items-center justify-center hover:scale-105 transition duration-300">
+            <img src="logo-perusahaan/pt_icon.png" alt="PT. Pelayaran Icon" class="max-h-full max-w-full object-contain" />
+          </div>
+
+          <div class="bg-white p-4 rounded-lg shadow-md h-24 w-48 flex items-center justify-center hover:scale-105 transition duration-300">
+            <img src="logo-perusahaan/kemenhub.png" alt="Kementerian Perhubungan" class="max-h-full max-w-full object-contain" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section py-20 bg-gray-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+          <div>
+            <h2 class="text-insani-blue font-bold text-xl mb-2 uppercase border-b-2 border-insani-accent inline-block pb-1">Hubungi Kami</h2>
+            <h3 class="text-3xl font-bold text-gray-900 mb-6 mt-4">Informasi Kontak & Alamat</h3>
+            <p class="text-gray-600 mb-8">Siap melayani kebutuhan logistik Anda. Kunjungi kantor kami atau hubungi nomor di bawah ini.</p>
+
+            <div class="space-y-6">
+              <div class="flex items-start group">
+                <div class="w-12 h-12 bg-white rounded-full flex items-center justify-center shadow-md text-insani-blue mt-1 group-hover:bg-insani-blue group-hover:text-white transition duration-300">
+                  <i class="fa-solid fa-map-location-dot text-xl"></i>
+                </div>
+                <div class="ml-4">
+                  <h4 class="font-bold text-gray-800 text-lg">Kantor Pusat (Semarang)</h4>
+                  <p class="text-gray-600">Jl. Krakatau No. 20 (Depan SMP 1 Bergas),<br />Bergas, Kab. Semarang</p>
+                </div>
+              </div>
+
+              <div class="flex items-start group">
+                <div class="w-12 h-12 bg-white rounded-full flex items-center justify-center shadow-md text-insani-blue mt-1 group-hover:bg-insani-blue group-hover:text-white transition duration-300">
+                  <i class="fa-solid fa-wrench text-xl"></i>
+                </div>
+                <div class="ml-4">
+                  <h4 class="font-bold text-gray-800 text-lg">Workshop</h4>
+                  <p class="text-gray-600">Jl. Soekarno Hatta KM 26 (Samping Morich),<br />Karangjati, Bergas</p>
+                </div>
+              </div>
+
+              <div class="flex items-start group">
+                <div class="w-12 h-12 bg-white rounded-full flex items-center justify-center shadow-md text-insani-blue mt-1 group-hover:bg-insani-blue group-hover:text-white transition duration-300">
+                  <i class="fa-solid fa-phone text-xl"></i>
+                </div>
+                <div class="ml-4">
+                  <h4 class="font-bold text-gray-800 text-lg">Telepon / Fax</h4>
+                  <p class="text-gray-600">0298 525054 / 0298 523328</p>
+                </div>
+              </div>
+
+              <div class="flex items-start group">
+                <div class="w-12 h-12 bg-white rounded-full flex items-center justify-center shadow-md text-insani-blue mt-1 group-hover:bg-insani-blue group-hover:text-white transition duration-300">
+                  <i class="fa-brands fa-whatsapp text-2xl"></i>
+                </div>
+                <div class="ml-4">
+                  <h4 class="font-bold text-gray-800 text-lg">Handphone / WA</h4>
+                  <p class="text-gray-600">081 325 892 930</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="bg-white p-8 rounded-xl shadow-xl border-t-4 border-insani-blue">
+            <h4 class="text-2xl font-bold mb-6 text-gray-800">Kirim Pesan</h4>
+            <form onsubmit="kirimKeWhatsApp(event)">
+              <div class="grid grid-cols-1 gap-6">
+                <div>
+                  <label class="block text-sm font-medium text-gray-700 mb-1">Nama Lengkap</label>
+                  <input type="text" id="nama" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-insani-blue focus:border-insani-blue outline-none transition" placeholder="Nama Anda" required />
+                </div>
+                <div>
+                  <label class="block text-sm font-medium text-gray-700 mb-1">Email / No. HP</label>
+                  <input
+                    type="text"
+                    id="kontak"
+                    class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-insani-blue focus:border-insani-blue outline-none transition"
+                    placeholder="email@contoh.com atau 08xxx"
+                    required
+                  />
+                </div>
+                <div>
+                  <label class="block text-sm font-medium text-gray-700 mb-1">Pesan</label>
+                  <textarea
+                    id="pesan"
+                    rows="4"
+                    class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-insani-blue focus:border-insani-blue outline-none transition"
+                    placeholder="Tulis kebutuhan pengiriman Anda..."
+                    required
+                  ></textarea>
+                </div>
+
+                <button type="submit" class="w-full bg-insani-blue text-white font-bold py-3 rounded-lg hover:bg-blue-800 transition shadow-lg transform active:scale-95"><i class="fa-brands fa-whatsapp mr-2"></i> Kirim ke WhatsApp</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

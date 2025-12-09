@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Galeri Proyek - CV. INSANI TRANSPORTATION</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet" />
+
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: { sans: ["Inter", "sans-serif"] },
+            colors: {
+              insani: { blue: "#1e3a8a", light: "#3b82f6", accent: "#f59e0b" },
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body class="font-sans text-gray-700 bg-gray-50 flex flex-col min-h-screen">
+    <div id="header-placeholder"></div>
+
+    <section class="bg-insani-blue pt-32 pb-16 text-white text-center">
+      <div class="max-w-7xl mx-auto px-4">
+        <h1 class="text-4xl font-bold mb-4">Galeri Aktivitas Proyek</h1>
+        <p class="text-lg text-gray-300 max-w-2xl mx-auto">Dokumentasi lengkap pengalaman kami dalam menangani pengiriman alat berat dan kargo proyek ke seluruh Indonesia.</p>
+      </div>
+    </section>
+
+    <section class="py-16 bg-white flex-grow">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div class="group rounded-lg overflow-hidden shadow-lg bg-gray-100 hover:shadow-2xl transition duration-300">
+            <div class="h-64 overflow-hidden relative">
+              <img src="assets/galeri-proyek/kapal_tcl.jpg" alt="Kapal LCT" class="w-full h-full object-cover transform group-hover:scale-110 transition duration-500" />
+              <div class="absolute top-2 right-2 bg-insani-accent text-xs font-bold px-2 py-1 rounded text-white">Project Cargo</div>
+            </div>
+            <div class="p-6">
+              <h3 class="font-bold text-lg text-insani-blue mb-1">Pengiriman via LCT</h3>
+              <p class="text-sm text-gray-600 mb-2"><i class="fa-solid fa-location-dot mr-1"></i> Jambi - Kalimantan</p>
+              <p class="text-sm text-gray-500">Mobilisasi alat berat excavator menggunakan transportasi laut khusus.</p>
+            </div>
+          </div>
+
+          <div class="group rounded-lg overflow-hidden shadow-lg bg-gray-100 hover:shadow-2xl transition duration-300">
+            <div class="h-64 overflow-hidden relative">
+              <img src="assets/galeri-proyek/truck.jpg" alt="Truck HD" class="w-full h-full object-cover transform group-hover:scale-110 transition duration-500" />
+              <div class="absolute top-2 right-2 bg-insani-accent text-xs font-bold px-2 py-1 rounded text-white">Mining</div>
+            </div>
+            <div class="p-6">
+              <h3 class="font-bold text-lg text-insani-blue mb-1">Unit HD 465 & Komatsu 1500</h3>
+              <p class="text-sm text-gray-600 mb-2"><i class="fa-solid fa-location-dot mr-1"></i> Pamapersada Site</p>
+              <p class="text-sm text-gray-500">Pengiriman unit truk tambang raksasa dengan pengawalan khusus.</p>
+            </div>
+          </div>
+
+          <div class="group rounded-lg overflow-hidden shadow-lg bg-gray-100 hover:shadow-2xl transition duration-300">
+            <div class="h-64 overflow-hidden relative">
+              <img src="assets/galeri-proyek/tiang-pancang.jpg" alt="Tiang Pancang" class="w-full h-full object-cover transform group-hover:scale-110 transition duration-500" />
+              <div class="absolute top-2 right-2 bg-insani-blue text-xs font-bold px-2 py-1 rounded text-white">Konstruksi</div>
+            </div>
+            <div class="p-6">
+              <h3 class="font-bold text-lg text-insani-blue mb-1">Material Tiang Pancang</h3>
+              <p class="text-sm text-gray-600 mb-2"><i class="fa-solid fa-location-dot mr-1"></i> Kumai, Kalteng</p>
+              <p class="text-sm text-gray-500">Distribusi material konstruksi beton untuk proyek PT. Nipindo Primatama.</p>
+            </div>
+          </div>
+
+          <div class="group rounded-lg overflow-hidden shadow-lg bg-gray-100 hover:shadow-2xl transition duration-300">
+            <div class="h-64 overflow-hidden relative">
+              <img src="assets/galeri-proyek/tracktor.png" alt="Traktor Pertanian" class="w-full h-full object-cover transform group-hover:scale-110 transition duration-500" />
+              <div class="absolute top-2 right-2 bg-green-600 text-xs font-bold px-2 py-1 rounded text-white">Agriculture</div>
+            </div>
+            <div class="p-6">
+              <h3 class="font-bold text-lg text-insani-blue mb-1">Pengiriman Traktor</h3>
+              <p class="text-sm text-gray-600 mb-2"><i class="fa-solid fa-location-dot mr-1"></i> Tujuan Pekanbaru</p>
+              <p class="text-sm text-gray-500">Kerjasama dengan PT. Bina Pertiwi untuk distribusi alat pertanian.</p>
+            </div>
+          </div>
+
+          <div class="group rounded-lg overflow-hidden shadow-lg bg-gray-100 hover:shadow-2xl transition duration-300">
+            <div class="h-64 overflow-hidden relative">
+              <img src="assets/galeri-proyek/pushback.jpg" alt="Bandara Logistics" class="w-full h-full object-cover transform group-hover:scale-110 transition duration-500" />
+              <div class="absolute top-2 right-2 bg-blue-500 text-xs font-bold px-2 py-1 rounded text-white">Aviation</div>
+            </div>
+            <div class="p-6">
+              <h3 class="font-bold text-lg text-insani-blue mb-1">Pushback Tractor Bandara</h3>
+              <p class="text-sm text-gray-600 mb-2"><i class="fa-solid fa-location-dot mr-1"></i> Timika & Sintang</p>
+              <p class="text-sm text-gray-500">Proyek Kementerian Perhubungan untuk operasional bandara.</p>
+            </div>
+          </div>
+
+          <div class="group rounded-lg overflow-hidden shadow-lg bg-gray-100 hover:shadow-2xl transition duration-300">
+            <div class="h-64 overflow-hidden relative">
+              <img src="assets/galeri-proyek/besi.jpeg" alt="Besi Beton" class="w-full h-full object-cover transform group-hover:scale-110 transition duration-500" />
+              <div class="absolute top-2 right-2 bg-gray-600 text-xs font-bold px-2 py-1 rounded text-white">Material</div>
+            </div>
+            <div class="p-6">
+              <h3 class="font-bold text-lg text-insani-blue mb-1">Besi Beton & Fabrikasi</h3>
+              <p class="text-sm text-gray-600 mb-2"><i class="fa-solid fa-location-dot mr-1"></i> Magelang</p>
+              <p class="text-sm text-gray-500">Pengiriman material konstruksi untuk Proyek Sido Agung (PT. Dasatria Utama).</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-12 text-center">
+          <a href="index.html" class="inline-block border-2 border-insani-blue text-insani-blue px-8 py-3 rounded-full font-bold hover:bg-insani-blue hover:text-white transition duration-300">
+            <i class="fa-solid fa-arrow-left mr-2"></i> Kembali ke Beranda
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="script.js"></script>
+
+    <script>
+      // Tunggu sebentar sampai header dimuat oleh script.js, lalu set active
+      setTimeout(() => {
+        const galleryLinks = document.querySelectorAll('a[href="gallery.html"]');
+        galleryLinks.forEach((link) => {
+          link.classList.add("active"); // Memaksa menu "Galeri" jadi biru
+        });
+      }, 500); // Delay 0.5 detik
+    </script>
+  </body>
+</html>

@@ -1,0 +1,50 @@
+<style>
+  /* Style untuk link yang sedang aktif */
+  .nav-link.active {
+    color: #1e3a8a !important; /* Warna Biru Tua Insani */
+    font-weight: 800; /* Lebih tebal */
+    border-bottom: 3px solid #f59e0b; /* Garis bawah oranye */
+  }
+
+  /* Efek hover biasa */
+  .nav-link:hover {
+    color: #1e3a8a;
+  }
+</style>
+<nav class="bg-white shadow-md fixed w-full z-50 transition-all duration-300" id="navbar">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex justify-between h-20">
+      <div class="flex items-center">
+        <a href="index.html" class="flex-shrink-0 flex items-center gap-3 cursor-pointer">
+          <img src="logo.png" alt="Logo Insani" class="h-12 w-auto object-contain" />
+          <div>
+            <h1 class="font-bold text-2xl text-insani-blue tracking-tighter leading-none">CV. INSANI</h1>
+            <p class="text-xs text-gray-500 font-semibold tracking-widest">TRANSPORTATION</p>
+          </div>
+        </a>
+      </div>
+
+      <div class="hidden md:flex items-center space-x-8">
+        <a href="index.html#home" class="nav-link text-gray-600 hover:text-insani-blue font-medium transition py-2">Beranda</a>
+        <a href="index.html#about" class="nav-link text-gray-600 hover:text-insani-blue font-medium transition py-2">Tentang Kami</a>
+        <a href="index.html#services" class="nav-link text-gray-600 hover:text-insani-blue font-medium transition py-2">Layanan</a>
+        <a href="index.html#projects" class="nav-link text-gray-600 hover:text-insani-blue font-medium transition py-2">Galeri Proyek</a>
+        <a href="index.html#contact" class="bg-insani-blue text-white px-5 py-2 rounded-full font-medium hover:bg-blue-800 transition shadow-lg transform hover:-translate-y-0.5">Hubungi Kami</a>
+      </div>
+
+      <div class="md:hidden flex items-center">
+        <button id="mobile-menu-btn" class="text-gray-600 hover:text-insani-blue focus:outline-none">
+          <i class="fa-solid fa-bars text-2xl"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div id="mobile-menu" class="hidden md:hidden bg-white border-t absolute w-full shadow-lg">
+    <a href="index.html#home" class="mobile-link block py-3 px-4 text-gray-600 hover:bg-gray-100 border-l-4 border-transparent hover:border-insani-blue">Beranda</a>
+    <a href="index.html#about" class="mobile-link block py-3 px-4 text-gray-600 hover:bg-gray-100 border-l-4 border-transparent hover:border-insani-blue">Tentang Kami</a>
+    <a href="index.html#services" class="mobile-link block py-3 px-4 text-gray-600 hover:bg-gray-100 border-l-4 border-transparent hover:border-insani-blue">Layanan</a>
+    <a href="gallery.html" class="mobile-link block py-3 px-4 text-gray-600 hover:bg-gray-100 border-l-4 border-transparent hover:border-insani-blue">Galeri Proyek</a>
+    <a href="index.html#contact" class="mobile-link block py-3 px-4 text-insani-blue font-bold hover:bg-gray-100 border-l-4 border-transparent hover:border-insani-blue">Hubungi Kami</a>
+  </div>
+</nav>
