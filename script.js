@@ -93,7 +93,7 @@ function kirimKeWhatsApp(event) {
 
   // 2. Nomor HP Tujuan (Sesuai PDF: 081 325 892 930)
   // Ubah 081 menjadi 6281 untuk format internasional
-  const nomorTujuan = "6282314726046";
+  const nomorTujuan = "6289506730800";
 
   // 3. Buat format pesan teks
   // %0A adalah kode untuk baris baru (Enter)
